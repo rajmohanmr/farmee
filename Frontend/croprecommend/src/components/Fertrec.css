@@ -1,0 +1,56 @@
+.fertilizer-container1 {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #006400; /* Set container text color to dark green */
+}
+
+.fertilizer-form .form-group {
+    margin-bottom: 15px;
+}
+
+.fertilizer-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #006400; /* Set label color to dark green */
+}
+
+.fertilizer-form input,
+.fertilizer-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #006400; /* Set input text color to dark green */
+}
+
+.submit-button,
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover,
+.back-button:hover {
+    background-color: #45a049;
+}
+
+.recommendation {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #006400; /* Set recommendation color to dark green */
+}

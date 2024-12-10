@@ -1,0 +1,142 @@
+/* General styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f7f9fc; /* Light background */
+    color: #333333;
+    margin: 0;
+  }
+  
+  .pest-control-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    color: #5a7d32; /* Dark green */
+  }
+  
+  .header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #666666;
+    margin: 8px 0 20px;
+  }
+  
+  /* Content section styling */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  .pest-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Details styling */
+  .details {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .details h2 {
+    color: #5a7d32; /* Dark green */
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .details p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 20px;
+  }
+  
+  .details ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: #333333;
+  }
+  
+  .details ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  .details ul li:before {
+    content: "•";
+    color: #5a7d32; /* Dark green */
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  
+  .details ul li strong {
+    color: #5a7d32;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    font-size: 0.9rem;
+    color: #888888;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: auto;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2.2rem;
+    }
+  
+    .header p {
+      font-size: 1rem;
+    }
+  
+    .pest-image {
+      max-height: 250px;
+    }
+  
+    .details h2 {
+      font-size: 1.6rem;
+    }
+  }

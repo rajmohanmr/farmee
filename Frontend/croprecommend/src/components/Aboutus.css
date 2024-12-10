@@ -1,0 +1,179 @@
+/* Base Styles */
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Header Section */
+.about-us-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.about-us-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.about-us-header p {
+    font-size: 1.2rem;
+    margin: 5px 0 0;
+}
+
+/* Intro Section */
+.about-us-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Team Section */
+.about-us-team {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Content Sections (Vision, Values, Impact, Goals) */
+.about-us-vision, .about-us-values, .about-us-impact, .about-us-goals {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-vision h2, .about-us-values h2, .about-us-impact h2, .about-us-goals h2 {
+    font-size: 1.8rem;
+    color: #2e7d32; /* Green shade for headers */
+    margin-bottom: 10px;
+}
+
+.about-us-vision p, .about-us-impact p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Values and Goals Lists */
+.about-us-values ul, .about-us-goals ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us-values ul li, .about-us-goals ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+}
+
+.about-us-values ul li::before, .about-us-goals ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #2e7d32; /* Same green shade as headers */
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+/* General Text */
+.about-us p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 8px 12px;
+    color: white;
+    background-color: #4CAF50; /* Farmer theme color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-us-header h1 {
+        font-size: 2rem;
+    }
+    
+    .about-us-header p {
+        font-size: 1rem;
+    }
+    
+    .about-us-vision, .about-us-values, .about-us-impact, .about-us-goals {
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .about-us-vision h2, .about-us-values h2, .about-us-impact h2, .about-us-goals h2 {
+        font-size: 1.5rem;
+    }
+    
+    .about-us p, .about-us-values ul li, .about-us-goals ul li {
+        font-size: 0.9rem;
+    }
+    
+    .team-container {
+        flex-direction: column; /* Stack team members vertically */
+        align-items: center;
+    }
+    
+    .back-button {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .about-us-header p {
+        font-size: 0.9rem;
+    }
+    
+    .about-us-vision, .about-us-values, .about-us-impact, .about-us-goals {
+        padding: 10px;
+        margin: 8px auto;
+    }
+
+    .about-us-vision h2, .about-us-values h2, .about-us-impact h2, .about-us-goals h2 {
+        font-size: 1.3rem;
+    }
+
+    .about-us p, .about-us-values ul li, .about-us-goals ul li {
+        font-size: 0.85rem;
+    }
+    
+    .back-button {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+    }
+}

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h4 {
+    color: #6eb870; 
+}
+
+.navbar {
+    background-color: #6eb870;
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1c270b; 
+}
+
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #6eb870;
+    border-color: #6eb870;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #4a8b59;
+    border-color: #4a8b59;
+}
+
+
+ul {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }

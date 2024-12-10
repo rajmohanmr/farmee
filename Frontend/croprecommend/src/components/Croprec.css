@@ -1,0 +1,125 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app-container1 {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  background: rgb(245, 241, 241);
+  padding: 30px;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* for positioning the info button */
+}
+
+.info-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: left;
+}
+
+.close-button {
+  display: block;
+  margin: 20px auto 0 auto;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  flex: 1;
+  margin-right: 10px;
+  text-align: left;
+}
+
+input {
+  flex: 2;
+  padding: 10px;
+  width: calc(100% - 20px);  /* Ensure the input takes up remaining space */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 10px;  /* Reduce the padding */
+  border: 1px solid #4CAF50;  /* Reduce the border size */
+  border-radius: 5px;
+  background-color: #e8f5e9;
+  color: #4CAF50;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.result {
+  font-size: 2em;  /* Increase the result text size */
+  color: #2e7d32;
+}
