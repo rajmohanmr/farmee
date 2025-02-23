@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/farmee/static/css/main.377548d6.css",
-    "main.js": "/farmee/static/js/main.e3c3bbf6.js",
+    "main.js": "/farmee/static/js/main.a596a62b.js",
     "static/js/453.c5a0ff63.chunk.js": "/farmee/static/js/453.c5a0ff63.chunk.js",
     "static/media/login2.jpg": "/farmee/static/media/login2.0261f890df9719f65aea.jpg",
     "index.html": "/farmee/index.html",
     "main.377548d6.css.map": "/farmee/static/css/main.377548d6.css.map",
-    "main.e3c3bbf6.js.map": "/farmee/static/js/main.e3c3bbf6.js.map",
+    "main.a596a62b.js.map": "/farmee/static/js/main.a596a62b.js.map",
     "453.c5a0ff63.chunk.js.map": "/farmee/static/js/453.c5a0ff63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.377548d6.css",
-    "static/js/main.e3c3bbf6.js"
+    "static/js/main.a596a62b.js"
   ]
 }
